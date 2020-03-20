@@ -9,13 +9,12 @@ body {
     height: 100vh;
     width: auto;
     background: #FFFFF0;
-    display: flex;
+    
 
 }
 
 .p1 {
     font-size: 20px;
-    color: #010101
     
     
 }
@@ -23,11 +22,17 @@ body {
 .img {
     width: 85%;
 }
- .p2 {
+
+ .more {
      font-size: 12px;
      padding-top: 50px;
+     width: 500px;
      text-align: center;
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+     margin: auto;
  }
+
 .memory-game{
    
     width: 900px;
@@ -72,7 +77,8 @@ transform: rotateY(180deg);
 }
 
 .game-intro {
-   width: 500px;
+    padding-top: 100px;
+    width: 500px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
@@ -82,16 +88,20 @@ transform: rotateY(180deg);
 
 .share {
     padding-top: 100px;
-    display: flex;
-    flex-wrap: wrap;
+    width: 500px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
     margin: auto;
 }
 
 .author {
     padding-top: 50px;
-    display: flex;
-    flex-wrap: wrap;
+    padding-bottom: 50px;
     margin: auto;
+    width: 500px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .front-face {
